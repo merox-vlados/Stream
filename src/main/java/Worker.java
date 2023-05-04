@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface Worker {
+@FunctionalInterface
+public interface Worker {
+    String work(int count);
 }

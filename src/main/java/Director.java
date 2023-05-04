@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Director {
+public class Director {
+    public String force(Worker worker, int count) {
+
+        return worker.work(count);
+    }
 }

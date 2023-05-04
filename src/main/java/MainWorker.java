@@ -1,4 +1,4 @@
-public class Main {
+public class MainWorker {
     public static void main(String[] args) {
         Director director = new Director();
         Worker worker = (n) -> {

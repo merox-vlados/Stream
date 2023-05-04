@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface MyPredicate {
+@FunctionalInterface
+public interface MyPredicate {
+    boolean test(int a);
 }
